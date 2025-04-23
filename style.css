@@ -4,8 +4,12 @@
 }
 
 .cabecalho{
-    backgrounf-color: #42e61;
-    color: white;
-    display: flex;
-    justify-content: space-around;
+    background-color: #42e61;
+     color: white;
+     display: flex;
+     justify-content: space-around;
+}
+
+.escola-imagem{
+    widht: 30%;
 }
