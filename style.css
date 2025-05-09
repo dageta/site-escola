@@ -62,3 +62,64 @@ body(
     text-align: center;
     padding: 24px 0;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media(max-widht: 768px) {
+    .cabecalho{
+        flex-direction: colum;
+        text-align: center;
+    }
+
+    .cabecalho-lista-item{
+      display: block;
+      margin: 8px;
+    }
+
+    .escola{
+        flex-direction: colum;
+        text-align: center;
+        padding: 16px
+    }
+
+    .escola-imagem{
+        widht: 80%;
+        margin-top: 16px;
+    }
+    .escola-conteudo{
+        widht: 100px;
+    }
+
+.estudantes-todos{
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    padding: 0 16px;
+}
+}
