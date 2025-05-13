@@ -5,9 +5,10 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Cal+Sans&display=swap');
 
-body(
-    font-family:  font-family: "Cal Sans", sans-serif;
-)
+body{
+    fot-family:  font-family: "Cal Sans", sans-serif;
+}
+
 .cabecalho{
     background-color: #3d3e5b;
     color: white;
@@ -23,7 +24,13 @@ body(
     font-size: 24px;
 }
 
-.escola-imagens{
+.escola-imagem{
+    widht: 120px;
+    height: 80px;
+    border-radius: 30%;
+}
+
+.escola-imagem{
     widht: 30%;
 }
 
@@ -36,7 +43,7 @@ body(
     padding: 24px 0;
 }
 
-.escola-div-conteudo{
+.escola-conteudo{
   width: 35%
 }
 
@@ -63,33 +70,49 @@ body(
     padding: 24px 0;
 }
 
+.estudantes-imagem{
+    widht: 100px;
+}
+
+.estudantes-icone{
+    widht: 24px;
+    padding: 4px 8px;
+}
+
+.rodape{
+    background-color: #424e61;
+    -align: center;
+    color: white;
+    font-size:25px;
+}
+
+.rodape-imagem{
+    height: 60px;
+    padding: 12px 0;
+}
 
 
+@media (max-width: 768px)
+.cabecalho{
+    flex-direction: column;
+    text-aign: cente;
+}
 
+.cabecalho-lista-item{
+    display: block;
+    margin: center;
+}
+ 
+.escola{
+    flex-direction: column;
+text-align: center;
+padding: 16px;
+}
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+.escola-imagem{
+    widht: 80%;
+    margin-top: 16px;
+}
 
 
 
@@ -105,7 +128,7 @@ body(
     }
 
     .escola{
-        flex-direction: colum;
+        flex-direction: column;
         text-align: center;
         padding: 16px
     }
